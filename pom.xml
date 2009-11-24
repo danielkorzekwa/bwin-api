@@ -10,30 +10,26 @@
 	<packaging>jar</packaging>
 	<name>flexibet-bwin</name>
 
-<distributionManagement>
+	<distributionManagement>
 		<repository>
-			<id>bwin-api-repo-releases</id>
-			<name>
-				Maven Repository for Bwin JAVA API (releases)
-			</name>
+			<id>dk-maven2-repo-releases</id>
+			<name>dk-maven2 maven repository (releases)</name>
 			<url>
-				svn:https://bwin-api.googlecode.com/svn/maven-repo/releases
+				svn:https://dk-maven2-repo.googlecode.com/svn/maven-repo/releases
 			</url>
 			<uniqueVersion>false</uniqueVersion>
 		</repository>
 		<snapshotRepository>
-			<id>bwin-api-repo-releases</id>
-			<name>
-				Maven Repository for Bwin JAVA API (snapshots)
-			</name>
+			<id>dk-maven2-repo-snapshots</id>
+			<name>dk-maven2 maven repository (snapshots)</name>
 			<url>
-				svn:https://bwin-api.googlecode.com/svn/maven-repo/snapshots
+				svn:https://dk-maven2-repo.googlecode.com/svn/maven-repo/snapshots
 			</url>
 			<uniqueVersion>false</uniqueVersion>
 		</snapshotRepository>
 	</distributionManagement>
 
-<build>
+	<build>
 		<extensions>
 			<extension>
 				<groupId>org.jvnet.wagon-svn</groupId>
@@ -128,7 +124,7 @@
 	</build>
 
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>commons-httpclient</groupId>
 			<artifactId>commons-httpclient</artifactId>
@@ -142,11 +138,11 @@
 		</dependency>
 
 		<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>4.4</version>
-				<scope>test</scope>
-			</dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
 
