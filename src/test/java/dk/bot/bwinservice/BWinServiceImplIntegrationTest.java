@@ -21,6 +21,11 @@ public class BWinServiceImplIntegrationTest {
 		System.out.println(System.currentTimeMillis()-now);
 		assertTrue(markets.size() > 0);
 		
+		/**Check if all markets have at least 2 teams.*/
+		for(BWinMarket market: markets) {
+			assertTrue("No teams on the market:" + market,market.getTeams().size()>=2);
+		}
+		
 	}
 	
 	@Test
