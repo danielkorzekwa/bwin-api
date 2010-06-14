@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dk.flexibet</groupId>
 	<artifactId>flexibet-bwin</artifactId>
-	<version>0.5</version>
+	<version>0.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>flexibet-bwin</name>
 
  <scm>
-    <connection>scm:svn:http://bwin-api.googlecode.com/svn/tags/flexibet-bwin-0.5</connection>
-    <developerConnection>scm:svn:https://bwin-api.googlecode.com/svn/tags/flexibet-bwin-0.5</developerConnection>
-    <url>http://code.google.com/p/bwin-api/source/browse/tags/flexibet-bwin-0.5</url>
+    <connection>scm:svn:http://bwin-api.googlecode.com/svn/trunk</connection>
+    <developerConnection>scm:svn:https://bwin-api.googlecode.com/svn/trunk</developerConnection>
+    <url>http://code.google.com/p/bwin-api/source/browse/</url>
   </scm>
 
 	<distributionManagement>
